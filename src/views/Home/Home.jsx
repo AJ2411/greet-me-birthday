@@ -90,8 +90,8 @@ function Home() {
           className="url"
           onClick={() => {
             const url = `${
-              import.meta.env.VITE_BASE_URL
-            }?to=${to}&from=${from}&s=${greetingNumber}&o=${orange}`;
+              window.location.origin
+            }/?to=${to}&from=${from}&s=${greetingNumber}&o=${orange}`;
             navigator.clipboard.writeText(url);
             alert(`url copied successfully ${url}`);
           }}
