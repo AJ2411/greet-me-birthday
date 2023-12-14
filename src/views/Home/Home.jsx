@@ -91,12 +91,12 @@ function Home() {
           onClick={() => {
             const url = `${
               window.location.origin
-            }/?to=${to}&from=${from}&s=${greetingNumber}&o=${orange}`;
+            }/?to=${encodeURIComponent(to)}&from=${encodeURIComponent(from)}&s=${greetingNumber}&o=${orange}`;
             navigator.clipboard.writeText(url);
             alert(`url copied successfully ${url}`);
           }}
         >
-          {window.location.origin}/?to={to}&from={from}&s={greetingNumber}
+          {window.location.origin}/?to={encodeURIComponent(to)}&from={encodeURIComponent(from)}&s={greetingNumber}
           &o={orange}
         </p>
       </div>
