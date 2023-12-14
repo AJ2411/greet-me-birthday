@@ -1,0 +1,127 @@
+body {
+  background-color: red;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.custom-card {
+  width: 60%;
+}
+.to {
+  position: absolute;
+  top: 38px;
+  left: 15px;
+}
+.from {
+  position: absolute;
+
+  right: 24px;
+  bottom:-17px;
+}
+.left-lamp {
+  height: 70px;
+  top: -40px;
+}
+.right-lamp {
+  height: 70px;
+  top: -40px;
+  right: 1px;
+}
+.mixs {
+  height: 50px;
+  bottom: 15px;
+  
+}
+.theme-orange {
+  background-color: #FEE140 !important;
+  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%) !important;
+  
+}
+.theme-red {
+  background-color: #ffb8b8 !important;
+  background-image: linear-gradient(147deg, #ffb8b8 0%, #ff2525 74%) !important;
+}
+.theme-blue {
+  background-color: #00dbde !important;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+
+}
+.theme-green {
+  background-color: #85ffbd !important;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%) !important;
+}
+.theme-yellow {
+  background-color: #fad961 !important;
+  background-image: linear-gradient(90deg, #fad961 0%, #ff9000 100%) !important;
+}
+.theme-purple{
+  background-color: #203790  !important;
+background-image: linear-gradient(225deg, #203790 0%, #784BA0 50%, #164564 100%) ! important;
+color: #fff !important;
+
+}
+.orange-square {
+  height: 30px;
+  width: 180px;
+  background-color: orange !important;
+  border-radius: 10%;
+  cursor: pointer;
+  border: 2px solid black !important;
+
+}
+.orange-card {
+  background-color: orange !important;
+}
+
+.red-card {
+  background-color: red !important;
+  color: white !important;
+}
+
+.blue-card {
+  background-color: blue !important;
+  color: white !important;
+}
+.url{
+  cursor: pointer !important;
+}
+
+
+/* .card-body  {
+  background: rgba(0, 0, 0, 0.125);
+} */
+
+
+@media (max-width: 768px) {
+  .custom-card {
+    width: 100% !important;
+  }
+  .lamp {
+    height: 40px;
+    bottom: -240px;
+    left: 12px;
+  }
+  .left-lamp {
+    height: 50px;
+    top: -40px;
+  }
+  .right-lamp {
+    height: 50px;
+    top: -40px;
+    right: 1px;
+  }
+  .generate-tagline{
+    font-size: 17px !important;
+    margin-top: 20px;
+  }
+  .url{
+    font-size: 13px !important;
+    cursor: pointer ! important ;
+
+  }
+}
